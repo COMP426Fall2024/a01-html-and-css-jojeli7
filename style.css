@@ -1,0 +1,57 @@
+body {
+    background-color:bisque;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+body #poll {
+    background-color: rgb(164, 88, 35);
+    color:beige;
+}
+body #list {
+    text-align:left;
+}
+div.title {
+    background-color:saddlebrown;
+    color:beige;
+}
+table {
+    background-color:sandybrown;
+    padding-right:20px;
+    border-spacing:4px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:cursive;
+    & caption {
+        font-weight:bold;
+        font-size:larger;
+        color:saddlebrown;
+    }
+    & thead {
+        font-weight:bold;
+        color:beige;
+    }
+    & td, th{
+        padding-right:20px;
+        color:beige;
+    }
+}
+table:hover {
+    border:5px solid;
+    border-color:saddlebrown;
+}
+div.image {
+    & figure {
+        & img {
+            width:1000px;
+            height:auto;
+        }
+        & img:hover {
+            border: 5px solid;
+            border-color:saddlebrown;
+        }
+    }
+}
+button{
+    background-color: #731284;
+    color:#ffffff;
+}
