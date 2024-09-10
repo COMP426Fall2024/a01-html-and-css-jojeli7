@@ -7,7 +7,7 @@ body #poll {
     background-color: rgb(164, 88, 35);
     color:beige;
 }
-body #list {
+body #list, div.left {
     text-align:left;
 }
 div.title {
@@ -16,12 +16,6 @@ div.title {
 }
 div.title:hover {
     background-color:#731284;
-}
-div.flex {
-    display:flex;
-    justify-content:space-around;
-    flex-direction:row;
-    text-align:left;
 }
 table {
     background-color:sandybrown;
@@ -36,7 +30,6 @@ table {
 table caption{
     font-weight:bold;
     font-size:larger;
-    color:saddlebrown;
 }
 table thead {
     font-weight:bold;
