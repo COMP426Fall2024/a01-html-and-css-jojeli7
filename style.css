@@ -1,5 +1,5 @@
 body {
-    background-color:bisque;
+    background-color: bisque;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
 }
@@ -16,6 +16,12 @@ div.title {
 }
 div.title:hover {
     background-color:#731284;
+}
+div.flex {
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    text-align:left;
 }
 table {
     background-color:sandybrown;
@@ -40,11 +46,17 @@ table td, th {
     padding-right:20px;
     color:beige;
 }
+table:hover {
+    border-color:#731284;
+}
 div.image figure img {
     width:1000px;
     height:auto;
     border: 5px solid;
     border-color:saddlebrown;
+}
+div.image figure img:hover {
+    border-color:#731284;
 }
 button{
     background-color: #731284;
