@@ -21,35 +21,31 @@ table {
     margin-left:auto;
     margin-right:auto;
     font-family:cursive;
-    caption {
-        font-weight:bold;
-        font-size:larger;
-        color:saddlebrown;
-    }
-    thead {
-        font-weight:bold;
-        color:beige;
-    }
-    td, th{
-        padding-right:20px;
-        color:beige;
-    }
+}
+table caption{
+    font-weight:bold;
+    font-size:larger;
+    color:saddlebrown;
+}
+table thead {
+    font-weight:bold;
+    color:beige;
+}
+table td, th {
+    padding-right:20px;
+    color:beige;
 }
 table:hover {
     border:5px solid;
     border-color:saddlebrown;
 }
-div.image {
-    figure {
-        img {
-            width:1000px;
-            height:auto;
-        }
-        img:hover {
-            border: 5px solid;
-            border-color:saddlebrown;
-        }
-    }
+div.image figure img {
+    width:1000px;
+    height:auto;
+}
+div.image figure img:hover{
+    border: 5px solid;
+    border-color:saddlebrown;
 }
 button{
     background-color: #731284;
