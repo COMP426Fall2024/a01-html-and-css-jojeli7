@@ -14,6 +14,9 @@ div.title {
     background-color:saddlebrown;
     color:beige;
 }
+div.title:hover {
+    background-color:#731284;
+}
 table {
     background-color:sandybrown;
     padding-right:20px;
@@ -21,6 +24,8 @@ table {
     margin-left:auto;
     margin-right:auto;
     font-family:cursive;
+    border:5px solid;
+    border-color:saddlebrown;
 }
 table caption{
     font-weight:bold;
@@ -35,15 +40,9 @@ table td, th {
     padding-right:20px;
     color:beige;
 }
-table:hover {
-    border:5px solid;
-    border-color:saddlebrown;
-}
 div.image figure img {
     width:1000px;
     height:auto;
-}
-div.image figure img:hover{
     border: 5px solid;
     border-color:saddlebrown;
 }
