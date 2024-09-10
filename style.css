@@ -21,16 +21,16 @@ table {
     margin-left:auto;
     margin-right:auto;
     font-family:cursive;
-    & caption {
+    caption {
         font-weight:bold;
         font-size:larger;
         color:saddlebrown;
     }
-    & thead {
+    thead {
         font-weight:bold;
         color:beige;
     }
-    & td, th{
+    td, th{
         padding-right:20px;
         color:beige;
     }
@@ -40,12 +40,12 @@ table:hover {
     border-color:saddlebrown;
 }
 div.image {
-    & figure {
-        & img {
+    figure {
+        img {
             width:1000px;
             height:auto;
         }
-        & img:hover {
+        img:hover {
             border: 5px solid;
             border-color:saddlebrown;
         }
